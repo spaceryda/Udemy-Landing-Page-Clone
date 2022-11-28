@@ -1,0 +1,309 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+    margin: 0 auto;
+    font-size: 14px;
+}
+nav .nav-container .top-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    height: 70px;
+}
+a {
+    text-decoration: none;
+    color: #1f1f1e;
+}
+.icon {
+    font-size: 20px;
+    color: #797979;
+}
+.search-bar {
+    border-radius: 20px;
+    width: 450px;
+    height: 45px;
+    border: 1px solid #797979;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #faf8f8;
+}
+.search-icon {
+    align-self: center;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+input {
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #faf8f8;
+}
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+hr {
+    border: 1px solid rgb(223, 222, 222);
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+}
+.bottom-nav {
+    background-color: #faf8f8;
+}
+.top-categories {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 15px 30px;
+    width: 95%;
+    margin: auto;
+    outline: none;
+}
+.landing-container {
+    height: 58vh;
+    background-image: url("content.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: inset 0px 1px 8px 2px rgba(0, 0, 0, 0.15);
+}
+.landing-heading {
+    background-color: white;
+    width: 470px;
+    position: relative;
+    left: 60px;
+    top: 60px;
+    padding: 30px;
+    box-shadow: 0px 1px 16px -7px rgba(0, 0, 0, 0.25);
+}
+.landing-heading h1 {
+    font-size: 35px;
+}
+.landing-heading p {
+    font-size: 15px;
+}
+.bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 50px;
+    width: 95%;
+    margin: auto;
+    outline: none;
+}
+.categories {
+    padding: 15px 30px;
+}
+.text {
+    border: 1px solid rgb(230, 227, 227);
+    border-bottom: hidden;
+    padding: 15px;
+    margin: auto;
+}
+.text button {
+    width: 100px;
+    height: 30px;
+    padding: 5px 7px;
+    background-color:#fff;
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.card-container h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(39, 38, 38);
+    font-size: 16px;
+   white-space: nowrap;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 5px;
+}
+.card-img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+.card-img img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 222, 222);
+}
+.author,  .sales {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #73726c;
+    font-size: 12px;
+    line-height: 17px;
+}
+.gold {
+    font-size: 12px;
+    line-height: 22px;
+    color: #c2973e;
+}
+h2 {
+    font-size: 16px;
+    color: #3c3b37;
+}
+button {
+    padding: 5px 7px;
+    background-color:#f5da1b;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.card-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(230, 227, 227);
+    border-top: hidden;
+}
+.card {
+    width: 230px;
+    padding: 20px 0;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+}
+.vid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(240, 245, 248);
+    margin: 0 auto;
+    padding: 30px;
+}
+.view h1 {
+        padding: 5px 30px;
+}
+.view.card-container {
+    border: none;
+}
+.card-container2 {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(230, 227, 227);
+    border-top: hidden;
+}
+.card-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid rgb(230, 227, 227);
+    border-top: hidden;
+    padding: 0 0 0 35px;
+}
+.card-container2 h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(39, 38, 38);
+    font-size: 16px;
+   white-space: nowrap;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 5px;
+}
+.feat {
+    height: 430px;
+    background-color: rgb(240, 245, 248);
+    padding: 60px 0 0 35px;
+    color: rgb(36, 35, 35);
+}
+.cat h1 {
+    margin-bottom: 30px;
+}
+.flex ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.flex li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+.links {
+    color: blue;
+    text-decoration: underline;
+}
+.smalltext {
+    font-size: 14px;
+    color: grey;
+    margin-top: 10px;
+}
+.feat button {
+    width: 180px;
+    height: 40px;
+    background-color: rgb(240, 245, 248);
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: black;   
+}
+.inst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+.txt {
+    margin: 100px;
+    font-size: 20px;
+}
+.txt button {
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+}
+.vid2 {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(240, 245, 248);
+}
+.footer {
+    height: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px;
+}
+li {
+    list-style-type: none;
+}
+.footer button {
+    width: 100px;
+    height: 40px;
+    background-color:black;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;   
+}
